@@ -1,4 +1,4 @@
-from gtts import gTTS
+from gtts import gTTS.
 import PyPDF2
 
 PAGE_NUMBER = 35
@@ -10,10 +10,3 @@ pdf_text = page.extractText()
 
 text_converter = gTTS(text=pdf_text)
 text_converter.save("output.mp3")
-
-
-
-
-
-
-
