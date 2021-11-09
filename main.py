@@ -1,4 +1,4 @@
-from gtts import gTTS....
+from gtts import gTTS
 import PyPDF2
 
 PAGE_NUMBER = 35
